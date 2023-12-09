@@ -1,0 +1,127 @@
+
+/* ! FOOTER SECTION  */
+footer{
+    width: 100%;
+    min-height: 400px;
+    border-top: 1px solid #555555;
+    background-color: #040303;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.footer_left{
+    width: 100%;
+    min-height: 100px;
+    padding: 2vw 4vw;
+    /* background-color: rgb(59, 59, 148); */
+}
+.footer_left_follow{
+    width: 100%;
+    min-height: 40px;
+    /* background-color: #473232; */
+    
+}
+.footer_left_follow p{
+    font-size:50px;
+    font-family:'Courier New', Courier, monospace;
+}
+.footer_left_media_icons{
+    width: 100%;
+    min-height: 100px;
+    margin-top: 2vw;
+    display: flex;
+    gap: 10px;
+    /* background-color: #555555; */
+}
+.footer_media_item{
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #555555;
+}
+
+/* ? */
+.footer_rigth{
+    width: 100%;
+    min-height: 400px;
+    /* background-color: rgb(6, 6, 15); */
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.footer_rigth_blabla{
+    width: 100%;
+    min-height: 200px;
+    /* background-color: rgb(51, 34, 68); */
+}
+.footer_rigth_blabla h1{
+    margin-top: 2vw;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 5vw;
+}
+.footer_rigth_blabla p{
+    margin-top:2vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.footer_rigth_blabla p:nth-child(2){
+    font-size: 20px;
+}
+.footer_rigth_blabla p:nth-child(3){
+    font-size: 20px;
+    color: #bababa;
+}
+
+
+.footer_rigth_form{
+    margin-top: 2vw;
+    width: 100%;
+    min-height:50px;
+    /* background-color: rgb(22, 25, 25); */
+    /* border: 1px solid #555555; */
+}
+.footer_rigth_form form{
+    width:70%;
+    height: 50px;
+    /* background-color: #555555; */
+    display: flex;
+    border: 1px solid #555555;
+
+}
+.footer_rigth_form form input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding-left:20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    /* font-weight: 600; */
+    font-size: 15px;
+}
+.footer_rigth_form form button{
+    width: 20%;
+    height: 100%;
+    background-color: #040303;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+    border-left: 1px solid #555555;
+    cursor: pointer;
+}
+
+.footer_rigth_bottom_end{
+    width: 100%;
+    min-height: 100px;
+    /* background-color: rgb(43, 66, 66); */
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.footer_rigth_bottom_end p{
+    font-family: 'Roboto', sans-serif;
+    color: #555555;
+}

@@ -1,0 +1,30 @@
+/* !  ABOUT SECTION */
+#about_section{
+    width: 90%;
+    margin: auto;
+    min-height:100vh;
+    /* padding: 2vw 4vw; */
+    margin-bottom: 4vw;
+    background-color: rgb(10, 5, 5);
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+
+.about_section_left{
+  width: 100%;
+  min-height: 400px;
+  /* background-color: darkgoldenrod; */
+}
+.about_section_left h1{
+    font-size: 12vw;
+}
+
+
+
+.about_section_roght{
+  width: 100%;
+  min-height: 400px;
+  background-color: rgb(59, 54, 39);
+}
+

@@ -3,7 +3,7 @@
 footer{
     width: 100%;
     min-height: 400px;
-    border-top: 1px solid #555555;
+    border-top:1px solid #555555;
     background-color: #040303;
     display: grid;
     grid-template-columns: 1fr 1.5fr;

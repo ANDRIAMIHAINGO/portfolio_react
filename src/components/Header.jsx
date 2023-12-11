@@ -4,9 +4,13 @@ export default function Header() {
     const talk = "Let's Talk."
   return (
     <header>
-        <a href="#" className="my_name_logo">Nicolas</a>
+        <a href="#" className="my_name_logo">.°Nicolas°.</a>
         <div className="rigth_header_container">
-          
+          <nav>
+            <a href="#about_me">ABOUT ME</a>
+            <a href="#">SERVICES</a>
+            <a href="#">PROJECTS</a>
+          </nav>
 
           <div className="github_container">
              <a href="#footer">{talk}</a>

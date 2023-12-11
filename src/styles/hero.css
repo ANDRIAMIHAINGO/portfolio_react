@@ -1,0 +1,28 @@
+.Hero_section{
+    width:100%;
+    min-height: 100vh;
+    margin-bottom: 4vw;
+    margin-left: auto;
+
+    background-color: rgb(27, 26, 26);
+    background: url(../assets/images/context-api-cover-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.Hero_section_absolute {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+.hi_im_nicolas_text{
+    font-size: 9rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* color: #aeae6a; */
+    color: rgb(250, 240, 149);
+}

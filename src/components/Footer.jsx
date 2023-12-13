@@ -31,7 +31,7 @@ export default function Footer() {
            <div className="footer_rigth_bottom_end">
              <p>@ 2023 Designed by Nicolas.</p>
            </div>
-        </div>className
+        </div>
     </footer>
   )
 }
